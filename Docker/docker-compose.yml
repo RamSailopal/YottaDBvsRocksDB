@@ -1,0 +1,17 @@
+#
+#       AUTHOR - Raman Sailopal
+#
+version: "2"
+services:
+ yottadb:
+   hostname: yottadb
+   image: docker.io/yottadb/yottadb-base 
+   networks:
+      - yottanet
+   volumes:
+      - ../yottadb:/home/yottadb
+   entrypoint: [ "bash", "-c", "cd /home/yottadb && /home/yottadb/provision.sh 2>&1 | tee results1.txt && tail -f /dev/null" ]
+
+networks:
+    yottanet:
+
