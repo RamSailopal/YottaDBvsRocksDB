@@ -1,6 +1,6 @@
 tasks:
   - name: Docker-compose
-    command: cd Docker && docker-compose up -d && sleep 120 && gp sync-done prev
+    command: cd Docker && docker-compose up -d && sleep 60 && gp sync-done prev
 
   - name: YottaDB-Performance-Stats
     command: gp sync-await prev && gp open yottadb/results1.txt
