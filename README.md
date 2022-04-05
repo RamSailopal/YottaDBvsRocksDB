@@ -24,6 +24,6 @@ Once the environment has been provisioned and period of a minute has passed, two
 
 #References
 
-YottaDB - https://yottadb.com/
+**YottaDB** - https://yottadb.com/
 
-Rockdb - http://rocksdb.org/
+**Rockdb** - http://rocksdb.org/
