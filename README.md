@@ -15,6 +15,10 @@ The demonstration performs 4 tests:
 **Random reads** - Reading back the same 1000 records.
 
 
+
+**NOTE** the RocksDB container has been built for production i.e. with make shared_lib as recommended
+
+
 # Gitpod
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/RamSailopal/YottaDBvsRocksDB)
@@ -26,4 +30,4 @@ Once the environment has been provisioned and period of a minute has passed, two
 
 **YottaDB** - https://yottadb.com/
 
-**Rockdb** - http://rocksdb.org/
+**RocksDB** - http://rocksdb.org/
