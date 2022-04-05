@@ -16,7 +16,7 @@ The demonstration performs 4 tests:
 
 
 
-**NOTE** the RocksDB container has been built for production i.e. with make shared_lib as recommended
+**NOTE** the RocksDB container has been built for production i.e. with **make shared_lib** as recommended
 
 
 # Gitpod
