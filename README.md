@@ -10,7 +10,7 @@ The demonstration performs 4 tests:
 
 **Sequentual reads** - Reading the 466550 records back one after the other
 
-**Random writes** - Overwriting 1000 random records from each database. Record numbers are taken from the random.txt file in both the raocksdb and yottadb directories.
+**Random writes** - Overwriting 1000 random records from each database. Record numbers are taken from the random.txt file in both the rocksdb and yottadb directories.
 
 **Random reads** - Reading back the same 1000 records.
 
