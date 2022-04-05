@@ -1,5 +1,7 @@
 # YottaDBvsRocksDB
 
+![Alt text](yottadbvsrocksb.JPG?raw=true "gitpod View")
+
 A demonstration of the speed of YottaDB against RocksDB
 
 The demonstration performs 4 tests:
