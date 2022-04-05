@@ -14,7 +14,7 @@ services:
 
  rocksdb:
     hostname: rocksdb
-    image: ramb0/rocksdb
+    image: docker.io/ramb0/rocksdb
     networks:
       - yottanet
     volumes:
