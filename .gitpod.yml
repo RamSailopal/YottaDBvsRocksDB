@@ -1,0 +1,11 @@
+tasks:
+  - name: Docker-compose
+    command: cd Docker && docker-compose up -d && sleep 120 && gp sync-done prev
+
+  - name: YottaDB-Performance-Stats
+    command: gp sync-await prev && gp open yottadb/results1.txt
+    openMode: split-right
+ 
+  - name: RocksDB-Performance-Stats
+    command:  gp sync-await prev && gp open rocksdb/results1.txt
+    openMode: split-right
