@@ -12,6 +12,15 @@ services:
       - ../yottadb:/home/yottadb
    entrypoint: [ "bash", "-c", "cd /home/yottadb && /home/yottadb/provision.sh 2>&1 | tee results1.txt && tail -f /dev/null" ]
 
+ rocksdb:
+    hostname: rocksdb
+    image: ramb0/rocksdb
+    networks:
+      - yottanet
+    volumes:
+      - ../rocksdb:/home/rocksdb
+    entrypoint: [ "bash", "-c", "cd /home/rocksdb && make all && /home/rocksdb/provision.sh 2>&1 | tee results1.txt && tail -f /dev/null" ]
+
 networks:
     yottanet:
 
