@@ -16,3 +16,12 @@ The demonstration performs 4 tests:
 # Gitpod
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/RamSailopal/YottaDBvsRocksDB)
+
+Once the environment has been provisioned and period of a minute has passed, two results windows will open, one showing the results for YottaDB and one showing the results for RocksDB.
+
+
+#References
+
+YottaDB - https://yottadb.com/
+
+Rockdb - http://rocksdb.org/
