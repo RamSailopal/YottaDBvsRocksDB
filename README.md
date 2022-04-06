@@ -18,6 +18,8 @@ The demonstration performs 4 tests:
 
 **NOTE** the RocksDB container has been built for production i.e. with **make shared_lib**, as recommended
 
+Also note that the tests are not "perfect". Performance will not solely be down to the underlying database technologies. A proportion of the execution time will be taken by code execution and this will be dependant on the quality of the YottaDB and RocksDB libraries. Aditional cpnsideration needs to be made for the fact that the YottaDB tests were written in C and the RockDB tests written in C++
+
 https://github.com/facebook/rocksdb/blob/main/INSTALL.md
 
 
