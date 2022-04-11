@@ -30,7 +30,7 @@ Also note that the tests are not "perfect". Performance will not solely be down 
 Once the environment has been provisioned and period of a minute has passed, two results windows will open, one showing the results for YottaDB and one showing the results for RocksDB.
 
 
-#References
+# References
 
 **YottaDB** - https://yottadb.com/
 
