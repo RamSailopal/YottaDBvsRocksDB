@@ -1,0 +1,61 @@
+<html>
+<head>
+<style>
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+</style>
+</head>
+<body>
+<table class="styled-table">
+<tr><th>Stat</th><th>RocksDB</th><th>YottaDB</th></tr>
+<tr><th colspan=3>Database sequential set test</th></tr>
+<tr><td>real</td><td>0m1.312s</td><td>0m0.749s</td></tr>
+<tr><td>user</td><td>0m0.779s</td><td>0m0.565s</td></tr>
+<tr><td>sys</td><td>0m0.521s</td><td>0m0.067s</td></tr>
+<tr><th colspan=3>Database sequential get test</th></tr>
+<tr><td>real</td><td>0m1.375s</td><td>0m0.437s</td></tr>
+<tr><td>user</td><td>0m0.539s</td><td>0m0.382s</td></tr>
+<tr><td>sys</td><td>0m0.825s</td><td>0m0.048s</td></tr>
+<tr><th colspan=3>Database random get test (1000 shots)</th></tr>
+<tr><td>real</td><td>0m0.025s</td><td>0m0.008s</td></tr>
+<tr><td>user</td><td>0m0.005s</td><td>0m0.000s</td></tr>
+<tr><td>sys</td><td>0m0.011s</td><td>0m0.007s</td></tr>
+<tr><th colspan=3>Database random set test (1000 shots)</th></tr>
+<tr><td>real</td><td>0m0.013s</td><td>0m0.017s</td></tr>
+<tr><td>user</td><td>0m0.006s</td><td>0m0.003s</td></tr>
+<tr><td>sys</td><td>0m0.006s</td><td>0m0.008s</td></tr>
+
+
+</table>
+</body>
+</html>
